@@ -53,6 +53,8 @@ The following files are available for the train and test data. Their description
 
 The tidy data set file output is a delimited text file with column headers in the first row.
 
+The "activity" column and "subject" column are string data containing the activity and test subject of each observation. All other columns are numeric and have been summarized. Each numeric column contains the arithmetic mean of each associated source column aggregated by activity and test subject. Thus, for each combination of activity and test subject, there is one row containing the average measurement values for each of the included measurement columns.
+
 The columns are as follows:
 
 - activity
